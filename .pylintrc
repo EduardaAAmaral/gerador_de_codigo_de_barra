@@ -4,7 +4,10 @@ disable=
       C0304, #Final newline missing (missing-final-newline)
       C0114, #Missing module docstring (missing-module-docstring) 
       C0116, #Missing function or method docstring (missing-function-docstring)
-
+      R0903, #Too few public methods (1/2) (too-few-public-methods)
+      C0115, #Missing class docstring (missing-class-docstring)
+      C0305, #Trailing newlines (trailing-newlines)
+      W0612, #Unused variable 'product_code' (unused-variable)
 
 # Analyse import fallback blocks. This can be used to support both Python 2 and
 # 3 compatible code, which means that the block might have code that exists
