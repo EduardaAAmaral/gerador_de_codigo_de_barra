@@ -4,7 +4,7 @@ from barcode.writer import ImageWriter
 
 app = Flask(__name__)
 
-@app.route('/creat_tag', methods=["POST"])
+@app.route('/create_tag', methods=["POST"])
 def create_tag():
     body = request.json
     product_code = body.get('product_code')
